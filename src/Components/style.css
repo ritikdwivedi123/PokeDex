@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FCEEC8;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 226px;
+    background-color: #9EDEF9;
+    border-radius: 2rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card .info {
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: -8rem;
+    margin-right: -6rem;
+}
+
+.btn {
+    margin-left: 3rem;
+}
+
+.modalBackground {
+    margin-top: 10rem;
+    width: 100vw;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    width: 800px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #dee2e6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.img {
+    margin-left: 2rem;
+    margin-top: 0rem;
+}
+
+
+.name {
+    margin-left: 14rem;
+    margin-top: 0rem;
+}
+
+.statInfo {
+    margin-top: -11rem;
+    margin-left: 35rem;
+
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: flex-end;
+}
